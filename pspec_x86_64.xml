@@ -1,0 +1,44 @@
+<PISI>
+    <Source>
+        <Name>python-pypeg2</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">An intrinsic PEG Parser-Interpreter for Python</Summary>
+        <Description xml:lang="en">An intrinsic PEG Parser-Interpreter for Python
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-pypeg2</Name>
+        <Summary xml:lang="en">An intrinsic PEG Parser-Interpreter for Python</Summary>
+        <Description xml:lang="en">An intrinsic PEG Parser-Interpreter for Python
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pyPEG2-2.15.2-py3.5.egg-info</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/__pycache__/xmlast.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/test/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/test/__pycache__/__init__.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/test/__pycache__/test_pyPEG2.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/test/__pycache__/test_xmlast.cpython-35.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/test/test_pyPEG2.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/test/test_xmlast.py</Path>
+            <Path fileType="library">/usr/lib/python3.5/site-packages/pypeg2/xmlast.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-02-23</Date>
+            <Version>2.15.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>
